@@ -33,12 +33,12 @@ class Main
   }
   
   //print next number and stop at zero
-  static void countDown(int theRandNum) 
+  static void countDown(int randomNum) 
   {
-      while(theRandNum != 0) 
+      while(randomNum != 0) 
       {
-        theRandNum--;
-        System.out.println(theRandNum);
+        randomNum--;
+        System.out.println(randomNum);
       }
   }
 }
